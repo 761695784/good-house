@@ -133,7 +133,7 @@ export function Footer() {
               href="https://majeliconnect.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#D4A373] hover:text-[#D4A373]/80 transition-colors"
+              className="text-[#D4A373] hover:text-[#D4A373]/80 transition-colors font-bold"
             >
               Majeli Connect
             </a>
