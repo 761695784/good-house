@@ -93,7 +93,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-white/70 hover:text-[#D4A373] transition-colors duration-300"
                 >
                   <Mail className="w-5 h-5 text-[#D4A373]" />
-                  contact@residencegoodhouse.com
+                  residenceghouse@gmail.com
                 </Link>
               </li>
             </ul>
