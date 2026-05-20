@@ -35,6 +35,18 @@ const faqs = [
     answer:
       "Pour le confort de tous nos hôtes, les animaux de compagnie ne sont pas acceptés dans nos logements.",
   },
+   // ✅ NOUVELLE CONDITION 1
+  {
+    question: "Que se passe-t-il en cas de dommages ou dégradations pendant le séjour ?",
+    answer:
+      "Tout équipement ou élément de l'appartement endommagé durant le séjour est sous la responsabilité du locataire. Un état des lieux est effectué à l'arrivée et au départ. En cas de dégradation constatée à la sortie, les frais de réparation ou de remplacement seront intégralement à la charge du client. Nous vous recommandons de signaler immédiatement tout problème préexistant dès votre arrivée.",
+  },
+  // ✅ NOUVELLE CONDITION 2
+  {
+    question: "Qui peut réserver un logement à la Résidence Good House ?",
+    answer:
+      "Nos logements sont exclusivement réservés aux adultes responsables et aux familles. Nous n'acceptons pas les réservations de groupes composés uniquement d'adolescents ou de mineurs sans accompagnateur adulte responsable. Une pièce d'identité valide sera exigée à la réservation et à l'arrivée.",
+  },
 ]
 
 export function FAQSection() {
