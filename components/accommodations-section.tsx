@@ -22,7 +22,7 @@ const accommodations = [
   {
     id: 1,
     name: "Appartement Meuble",
-    price: "60 000",
+    price: "65 000",
     priceUnit: "FCFA / jour",
     badge: "Premium",
     description:
@@ -50,7 +50,7 @@ const accommodations = [
   {
     id: 2,
     name: "Studio Meuble",
-    price: "30 000",
+    price: "35 000",
     priceUnit: "FCFA / nuitee",
     badge: "Populaire",
     description:
@@ -75,7 +75,7 @@ const accommodations = [
   {
     id: 3,
     name: "Mini Studio Meuble",
-    price: "20 000",
+    price: "25 000",
     priceUnit: "FCFA / nuitee",
     badge: "Economique",
     description:
