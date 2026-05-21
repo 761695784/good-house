@@ -17,10 +17,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Résidence Good House | Appartements Meublés Premium à Dakar',
-  description: 'Appartements meublés premium à Ngor, Almadies Dakar. Studios et appartements climatisés avec WiFi, cuisine équipée. Idéal séjour courte et longue durée.',
-  keywords: ['appartement meublé Dakar', 'location courte durée Dakar', 'résidence Ngor Almadies', 'hébergement premium Dakar', 'studio meublé Dakar'],
+  description: 'Appartements meublés premium à Ngor, Almadies Dakar. Studios, appartements, chambres meublés et climatisés avec WiFi, cuisine équipée. Idéal séjour courte et longue durée.',
+  keywords: ['appartement meublé Dakar', 'location courte durée Dakar', 'résidence Ngor Almadies', 'hébergement premium Dakar', 'studio meublé Dakar, Chambres meublées Dakar, good house Dakar, résidence good house, appartements à louer Dakar, location meublée Dakar, hébergement de qualité Dakar'],
   authors: [{ name: 'Résidence Good House' }],
-  metadataBase: new URL('https://votre-domaine.com'), // ← à remplacer
+  metadataBase: new URL('https://residencegoodhouse.com'), 
   alternates: {
     canonical: '/',
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: 'Résidence Good House',
     images: [
       {
-        url: '/og-image.jpg', // ← ajouter une belle photo dans /public
+        url: '/residence.jpeg', // Assurez-vous que cette image existe dans le dossier public
         width: 1200,
         height: 630,
         alt: 'Résidence Good House Dakar',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Résidence Good House Dakar',
     description: 'Appartements meublés premium à Ngor, Almadies Dakar.',
-    images: ['/og-image.jpg'],
+    images: ['/residence.jpeg'],
   },
   robots: {
     index: true,
